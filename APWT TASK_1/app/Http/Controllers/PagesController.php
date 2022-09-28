@@ -14,14 +14,19 @@ class PagesController extends Controller
     }
     
     public function services(){
+        //$message = "Service Page";
         return view('pages.products.services');
     }
 
     public function ourteams(){
         return view('pages.ourteams');
     }
-    
-    // No changes just trying to sync
-    
 
+    public function contactus(){
+        return view('pages.contactus');
+    }
+
+    public function aboutUs(){
+        return view('pages.aboutUs');
+    }
 }

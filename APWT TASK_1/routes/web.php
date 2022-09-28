@@ -19,5 +19,9 @@ Route::get('/', function () {
 });
 
 Route::get('/pages/index/landingPages/', [PagesController::class, 'index'])->name('home');
-Route::get('/pages/products/',[PagesController::class, 'services'])->name('services');
-Route::get('/pages',[PagesController::class, 'ourteams'])->name('ourteams');
+Route::get('/pages/products/services',[PagesController::class, 'services'])->name('services');
+Route::get('/pages/ourteams',[PagesController::class, 'ourteams'])->name('ourteams');
+Route::get('/pages/contactus',[PagesController::class, 'contactus'])->name('contactus');
+Route::get('/pages/aboutUs',[PagesController::class, 'aboutUs'])->name('aboutUs');
+
+//

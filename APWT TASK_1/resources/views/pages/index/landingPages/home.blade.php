@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <div>
-    Landing  Page
+    <h1>Landing  Page</h1>
     <br>
     {{$message}}
 </div>
